@@ -1,0 +1,24 @@
+declare module '*.vue' {
+  import Vue from 'vue'
+  export default Vue
+}
+
+declare module '*.svg' {
+  const content: any
+  export default content
+}
+
+declare module '*.svg?external' {
+  const content: any
+  export default content
+}
+
+declare module '*.svg?data' {
+  const content: any
+  export default content
+}
+
+declare module '*.svg?raw' {
+  const content: any
+  export default content
+}

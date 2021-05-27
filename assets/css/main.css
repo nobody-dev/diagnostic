@@ -1,0 +1,31 @@
+@import './fonts.css';
+
+html {
+  /* Positioning */
+  /* Box Model */
+  box-sizing: border-box;
+  /* Typography */
+  color: theme('colors.main.deep-blue');
+  font-weight: 500;
+  font-size: theme('fontSize.md');
+  font-family: theme('fontFamily.body');
+  word-spacing: 1px;
+  -ms-text-size-adjust: 100%;
+  -webkit-text-size-adjust: 100%;
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-font-smoothing: antialiased;
+  /* Visual */
+  /* Animation */
+  /* Misc */
+}
+
+html,
+body,
+#__nuxt,
+#__layout {
+  height: 100%;
+}
+
+a:hover {
+  color: theme('colors.tertiary.blue-jeans');
+}
